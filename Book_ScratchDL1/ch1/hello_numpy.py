@@ -1,6 +1,13 @@
 import numpy as np
 
-x = np.array([1.0,2.0,3.0])
-print(x)
+X = np.array([[1,2],[3,4],[5,6]])
 
-type(x)
+X = X.flatten()
+print(X)
+
+print(X[np.array([0,2,4])])
+
+print(X>3)
+
+print(X[X>2])
+
